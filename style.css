@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shantell+Sans:wght@300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #212529;
+  color: #f1f5f9;
+}
+
+section {
+  height: 100vh;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+  border-bottom: 0.4px solid #289FCE;
+  z-index: 1;
+}
+
+.menu {
+  display: flex;
+  gap: 45px;
+}
+
+.menu a {
+  color: #f1f5f9;
+  font-weight: 400;
+  font-size: 18px;
+  height: 100%;
+}
+
+.menu a:hover {
+  color: #289FCE;
+  transition: .3s;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12.5rem 7.5rem 6.25rem 7.5rem;
+}
+
+.home-img img{
+  width: 45vh;
+  border-radius: 50%;
+  border: #289FCE solid 3px;
+  box-shadow: 0 0 1rem #289FCE;
+}
+
+.home-content h2{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.home-content h1{
+  color: #289FCE;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+}
+
+.home-content p{
+  font-size: 1.2rem;
+  width: 85%;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.contato{
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contato img {
+  background-color: #289FCE;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem #289FCE;
+}
+
+.contato img:hover {
+  background-color: #f1f5f9;
+  transition: .3s;
+}
+
+.cv {
+  border-radius: 10px;
+  color: #000000;
+  background-color: #289FCE;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  box-shadow: 0 0 1rem #289FCE;
+}
+
+.cv:hover {
+  background-color: #f1f5f9;
+  transition: .3s;
+}
+
+.about {
+  display: flex;
+  align-items: center;
+  gap: 9.375rem;
+  background-color: #1b1b1b;
+  padding: 12.5rem 7.5rem 6.25rem 7.5rem;
+}
+
+.about-img img{
+  width: 45vh;
+  border-radius: 50%;
+  border: #289FCE solid 3px;
+  box-shadow: 0 0 1rem #289FCE;
+}
+
+.about-content h2{
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.about-content h1{
+  color: #289FCE;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+}
+
+.about-content p{
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+
+.projects {
+  display: flex;
+  justify-content: center;
+  height: 200vh;
+}
+
+.projects h1 {
+  color: #289FCE;
+  font-size: 3rem;
+  padding-top: 100px;
+}
+
+.skills {
+  background-color: #1b1b1b;
+  height: auto;
+}
+
+.skills h1{
+  text-align: center;
+  color: #289FCE;
+  font-size: 3rem;
+  padding-top: 100px;
+  margin-bottom: 4rem;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+  padding: 0rem 7.5rem 6.25rem 7.5rem;
+}
+
+.skills-box {
+  display: flex;
+  position: relative;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem #289FCE;
+  overflow: hidden;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.skills-box img {
+  width: 100%;
+}
+
+.skills-box .skills-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(0, 0, 0, .4), #1b1b1b);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  pad: 0 4rem;
+}
+
+.skills-layer h4{
+  font-size: 1.5rem;
+}
+
+.footer {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #212529;
+  border-top: 0.4px solid #289FCE;
+  flex-direction: column;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.footer-content img {
+  background-color: #289FCE;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  box-shadow: 0 0 1rem #289FCE;
+}
+
+.footer-content img:hover {
+  background-color: #f1f5f9;
+  transition: .3s;
+}
+
+.ano p {
+  font-size: 0.875rem;
+}
