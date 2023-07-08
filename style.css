@@ -138,7 +138,7 @@ body {
   text-align: center;
   background-color: #1b1b1b;
   gap: 4rem;
-  padding: 0 7rem 6.25rem 7rem;
+  padding: 0 7rem 6.2rem 7rem;
   height: auto;
 }
 
@@ -376,10 +376,6 @@ body {
     padding: 0 10rem 0 10rem;
   }
 
-  .about {
-    padding-bottom: 70rem;
-  }
-
 }
 
 @media (max-width: 829px) {
@@ -396,10 +392,6 @@ body {
 
   .home-content p{
     padding: 0 5rem 0 5rem;
-  }
-
-  .about {
-    padding-bottom: 70rem;
   }
 
   .about-content p{
@@ -575,7 +567,8 @@ body {
   }
 
   .about {
-    padding: 0 2rem 0 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .about h1 {
@@ -639,7 +632,8 @@ body {
   }
 
   .about {
-    padding: 0 2rem 0 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
 
   .about h1 {
@@ -707,7 +701,8 @@ body {
   }
 
   .about {
-    padding: 0 1rem 0 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   .about h1 {
