@@ -711,6 +711,14 @@ body {
   }
 }
 
+@media (max-width: 375px) { 
+
+  .projects-text h2 {
+    font-size: 3.1rem;
+  }
+
+}
+
 @media (max-width: 360px) {
 
   .menu {
