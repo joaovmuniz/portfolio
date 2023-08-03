@@ -369,6 +369,18 @@ body {
   font-size: 1.4rem;
 }
 
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #212529;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #289FCE;
+}
+
 
 @media (max-width: 1024px) {
 
